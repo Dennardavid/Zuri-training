@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dave{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(#254335,#191a1e);
+}
+.navbar{
+    width: 1350px;
+    max-width: 95%;
+    margin: 0 auto;
+    position: relative;
+    height: 20vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Space Grotesk', sans-serif;
+}
+nav ul li a:hover{
+    color: #42a66c;
+    transition: .5s;
+}
+.logo{
+    color: #fff ;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family:'Space Grotesk', sans-serif ;
+}
+span{
+    color: #42a66c ;
+}
+.intro{
+    position: relative;
+    padding-top: 50px;
+    z-index: 4;
+    padding-left: 50px;
+}
+.intro h2{
+    color: #fff;
+    font-size: 35px;
+    line-height: 1;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.intro span{
+    color:  #42a66c;
+}
+.intro p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.85;
+    margin-bottom: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+button{
+    background-color: #42a66c ;
+    display: inline-block;
+    padding: 16px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #42a66c;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+button:hover{
+    background-color: #fff;
+    border-radius: 1px solid #42a66c;
+    transform: scale(1.1);
+    transition: .5s;
+}
+button a:hover{
+    color: #42a66c;
+}
+.pic{
+    position: absolute;
+    left: 81%;
+    top: 53%;
+    transform: translate(-50%,-50%)
+}
+.pic img{
+    border-radius: 30%;
+    height: 500px;
+}
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: #fff;
+    border-radius: 5px;
+}
+.login h2{
+    text-align: center;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid #42a66c;
+    font-family:'Space Grotesk', sans-serif
+}
+.login form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+form .text{
+    position: relative;
+    border-bottom: 2px solid #42a66c;
+    margin: 30px 0;
+}
+.text input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.text label{
+    color: #adadad;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+}
+table{
+    width: 700px
+}
+table li{
+    text-align: center;
+    list-style: none;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fff;
+    line-height: 1.85
+}
+.head{
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+#pro{
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #42a66c;
+}
+.button{
+    position: absolute;
+    left: 30%;
+    top: 100%;
+    margin: 20px;
+}
+.button a{
+    font-family: 'Space Grotesk', sans-serif;
+}
+#message{
+    outline: none;
+    resize: none;
+    border: none;
+    width: 100%;
+    max-height: 100px;
+}
+.registration label{
+    color: #adadad;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+}
+.registration input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid #42a66c;
+}
+.registration select{
+    width: 80%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: none;
+    outline: none;
+    border: 2px solid #42a66c;
+}
+
+
